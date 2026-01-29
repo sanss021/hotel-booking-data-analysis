@@ -106,7 +106,6 @@ Este dashboard apresenta visualizações da receita, ADR, noites reservadas e an
 - Criar modelo preditivo de receita
 - Analisar sazonalidade
 - Migrar pipeline para Python
-- Publicar dashboard no Power BI Service
 
 ---
 
