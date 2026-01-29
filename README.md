@@ -1,11 +1,21 @@
 # 🏨 Hotel Booking Data Analysis
 
-## 📌 Contexto do Projeto
-Este projeto tem como objetivo analisar dados históricos de reservas de hotéis
-para apoiar decisões estratégicas relacionadas a **receita**, **ocupação** e
-**infraestrutura**.
+Análise de dados de reservas de hotéis (2018, 2019 e 2020) utilizando SQL Server e Power BI para responder a perguntas de negócio relevantes como crescimento de receita, tendência de ocupação e necessidade de infraestrutura.
 
-Os dados abrangem os anos de **2018, 2019 e 2020**.
+---
+
+
+## 📌 Descrição
+
+Este projeto analisa dados reais de reservas de hotéis com o objetivo de responder questões de negócio importantes, como:
+
+- A receita do hotel está crescendo?
+- Qual tipo de hotel gera mais receita?
+- Devemos expandir a infraestrutura?
+- Quais são as tendências nas reservas ao longo dos anos?
+
+Os dados foram extraídos, transformados e carregados no SQL Server e visualizados no Power BI.
+
 
 ---
 
@@ -14,6 +24,24 @@ Os dados abrangem os anos de **2018, 2019 e 2020**.
 - Devemos aumentar o número de vagas de estacionamento?
 - Quais tendências podem ser observadas no comportamento dos clientes?
 
+---
+
+## 🗂️ Estrutura do Repositório
+
+```text
+hotel-booking-data-analysis/
+├── data/              
+├── docs/
+│   └── business_questions.md
+├── images/
+├── powerbi/
+├── sql/
+│   ├── 01_create_database.sql
+│   ├── 02_import_data.sql
+│   ├── 03_eda_queries.sql
+│   └── 04_powerbi_joins.sql
+└── README.md
+```
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -51,8 +79,11 @@ O dashboard interativo apresenta:
 - Percentual médio de desconto
 - Análise temporal por hotel
 
-### Dashboard:
-![Dashboard](images/dashboard.png)
+## 📊 Dashboard
+
+![Dashboard Preview](images/dashboard.png)
+
+Este dashboard apresenta visualizações da receita, ADR, noites reservadas e análise temporal por tipo de hotel.
 
 ---
 
@@ -61,6 +92,17 @@ O dashboard interativo apresenta:
 - O ADR aumentou em 2020, indicando tentativa de compensar queda de demanda
 - Não há evidência de necessidade de ampliar vagas de estacionamento
 - Descontos aumentaram como estratégia para atrair clientes
+
+---
+## 📌 Como Reproduzir
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/sanss021/hotel-booking-data-analysis.git
+2. Abra o banco no SQL Server.
+3. Execute os scripts em sequência no SSMS.
+4. Clone o repositório:
+5. Abra o arquivo PBIX no Power BI Desktop.
 
 ---
 
