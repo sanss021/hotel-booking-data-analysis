@@ -36,10 +36,7 @@ hotel-booking-data-analysis/
 ├── images/
 ├── powerbi/
 ├── sql/
-│   ├── 01_create_database.sql
-│   ├── 02_import_data.sql
-│   ├── 03_eda_queries.sql
-│   └── 04_powerbi_joins.sql
+│   ├── 01_eda_and_analysis.sql.sql
 └── README.md
 ```
 ---
@@ -101,8 +98,7 @@ Este dashboard apresenta visualizações da receita, ADR, noites reservadas e an
    git clone https://github.com/sanss021/hotel-booking-data-analysis.git
 2. Abra o banco no SQL Server.
 3. Execute os scripts em sequência no SSMS.
-4. Clone o repositório:
-5. Abra o arquivo PBIX no Power BI Desktop.
+4. Abra o arquivo PBIX no Power BI Desktop.
 
 ---
 
